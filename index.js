@@ -1,13 +1,13 @@
 var randomnumber1 = Math.floor(Math.random() * 6) + 1;
 var randomImage = "dice" + randomnumber1 + ".png";
-var randomImageSource =  + randomImage;
+var randomImageSource =   randomImage;
 
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImageSource);
 
 var randomnumber2 = Math.floor(Math.random() * 6) + 1;
 var randomimage1 = "dice" + randomnumber2 + ".png";
-var randomImageSource1 =  + randomimage1;
+var randomImageSource1 =  randomimage1;
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImageSource1);
 
